@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户登录版块演示</title>
+<style>
+*{ margin:0; padding:0;}
+body { font-family:"微软雅黑", "宋体"; background:#519AC3; color:#111;}
+#userlogin { width:300px; background:#fff; margin:30px auto; padding:25px;}
+	#userlogin h3 { font-size:16px; line-height:32px; margin-bottom:20px;}
+	#userlogin p { margin-bottom:25px;}
+	#userlogin .input-text { border:1px #ccc solid; height:38px; width:248px; background:url(img/ico-user.png) no-repeat 0 -2px; padding-left:50px; font-size:14px; font-family:"微软雅黑", "宋体";}
+	#userlogin .input-pwd { background:url(img/ico-pwd.png) no-repeat -2px -2px;}
+	#userlogin .input-btn { display:block; width:300px; height:40px; border:0; background:#9A0002; color:#fff; font-family:"微软雅黑", "宋体"; font-size:16px; font-weight:bold; letter-spacing:5px; border-radius:5px;}
+		#userlogin .input-btn:hover { background:#D10003; cursor:pointer;} /*cursor属性：设置鼠标的显示形状。pointer值指的是手型*/
+	#userlogin h6 { text-align:right;}	
+		#userlogin h6 a { color:#666; text-decoration:none; font-weight:normal; margin-right:12px;}
+			#userlogin h6 a:hover { color:#C81D1F;}
+</style>
+</head>
+
+<body>
+<form action="#" method="post" name="userlogin" id="userlogin">
+	<h3>用户登录</h3>
+ 	<p><input class="input-text" type="text" placeholder="手机号/会员名/邮箱" autofocus required></p>
+    <p><input class="input-text input-pwd" type="password" required></p>
+ 	<p><input class="input-btn" type="submit" value="登录"></p>
+	<h6><a href="#">忘记密码</a><a href="#">免费注册</a></h6>
+</form>
+</body>
+</html>
